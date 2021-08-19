@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cypress",
+    "\\cypress\\integration",
+    "\\cypress\\integration\\todo_test"
+  ],
+  "SelectedNode": "\\cypress\\integration\\todo_test\\todo_spec.js",
+  "PreviewInSolutionExplorer": false
+}
