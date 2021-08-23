@@ -18,7 +18,7 @@
     "react-refresh": "^0.10.0",
     "react-refresh-webpack-plugin": "^0.1.0",
     "start-server-and-test": "^1.13.1",
-    "webpack": "^5.42.0"
+    "webpack": "^4.44.0"
   },
   "scripts": {
     "cypress": ".node_modules/.bin/cypress open",
