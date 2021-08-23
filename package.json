@@ -18,6 +18,7 @@
     "start-server-and-test": "^1.13.1"
   },
   "scripts": {
+    "cypress": ".node_modules/.bin/cypress open",
     "dev": "next",
     "build": "next build",
     "start": "next start",
