@@ -8,25 +8,20 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "next": "^9.3.3",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-scripts": "1.1.4"
   },
   "devDependencies": {
-    "cypress": "^6.9.1",
-    "react-refresh": "^0.10.0",
-    "react-refresh-webpack-plugin": "^0.1.0",
-    "start-server-and-test": "^1.13.1",
-    "webpack": "^4.44.0"
+    "cypress": "^6.9.1"
   },
   "scripts": {
-    "cypress": ".node_modules/.bin/cypress open",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "cypress-run": "cypress run",
-    "int-test": "start-server-and-test next http://localhost:3000 cypress-run"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "cypress": "./node_modules/.bin/cypress open",
+    "cypress-run": "cypress run"
   },
   "license": "MIT"
 }
